@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/about_styles.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!--Nav Bar-->
+    <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+            </div>
+            <!-- Collect the nav links, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                </ul> 
+                <!--Right nav link-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://localhost:5000/">home</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:5000/json2html">data</a>
+                    </li>
+      
+                </ul>
+            </div>
+        </div>
+
+    <!--Main Grid-->
+    <div class= "container">
+        <div class= "row">
+            <div class= "col-md-6">
+                <div class= "main-box">
+                <h1 class= "main-pg-header">Summary</h1>
+                <hr>
+                <div class= "summary txt">
+                    <!-- <img id= "main-img" src="Resources/assets/images/Fig1.png", class = "img img-responsive", alt= "Temp vs Latitude"> -->
+                    <p>
+                        The purpose of this project was to visualize all the therapists in California. To accomplish this visualization, we first WebScrapped data from https://www.psychologytoday.com/us to assemble a dataset on over 1600 therapists in California.  
+                        Cleansed the data, before loading them to MongoDB. Created end point to return the data. Used D3 to call the end point and Leaflet Marker Cluster for visualizations, Plotted the data, to cluster plugins to de-clutter a map with tons of data on it  
+                        Factors we looked at included: Name, Phone, Website, Photo, Specialities and Issues.  This site provides the sourced
+                        data and visualizations.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class= "col-md-6">
+                <div class= "side-box">
+                <h2 class= "main-pg-subheader">Project Team</h2>
+                <hr>
+                <div class= "sidebar">
+                        <img id= "side-img1" src= "../static/Project2-Group-Pic1.jpg", class = "img img-responsive",alt= "Project Team -1", height="1600", width="1200">
+                        <!-- <img src="smiley.gif" alt="Smiley face" height="42" width="42"> -->
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
