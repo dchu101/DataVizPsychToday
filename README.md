@@ -11,7 +11,7 @@ Breakdown of tasks:
 	- Create Leaflet Marker clusters with popups with data attributes
 	- create 3 different html pages (1. Map viz, 2. About page and form, 3. Data viz)
 
-Data sets used: ![PsychologistsToday](Templates/Psytoday.png)
-https://www.psychologytoday.com/
+![Visualization](https://github.com/dchu101/DataVizPsychToday/blob/master/templates/Leaflet.png)
 
-![Visualization](Templates/Leaflet.png)
+Data sets used: ![PsychologistsToday](https://github.com/dchu101/DataVizPsychToday/blob/master/templates/Psytoday.png)
+https://www.psychologytoday.com/
